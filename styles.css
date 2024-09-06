@@ -1,0 +1,39 @@
+.game{
+    display: flex;
+    flex-direction:  column;
+    justify-content: center;
+    justify-items: center;
+
+    text-align: center;
+}
+
+.btn-container{
+
+    display: flex;
+
+    justify-content: center;
+
+}
+
+.btn{
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 15%;
+    margin: 2rem;
+}
+
+.red{
+    background-color: #FF8A8A;
+}
+
+.yellow{
+    background-color: #FFFF5C;
+}
+.green{
+    background-color: #4FFFB0;
+}
+
+.pruple{
+    background-color: #C576F6;
+}
