@@ -1,39 +1,44 @@
-.game{
-    display: flex;
-    flex-direction:  column;
-    justify-content: center;
-    justify-items: center;
+/** @format */
 
-    text-align: center;
+.game {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	justify-items: center;
+
+	text-align: center;
 }
 
-.btn-container{
+.btn-container {
+	display: flex;
 
-    display: flex;
-
-    justify-content: center;
-
+	justify-content: center;
+    flex-direction: column;
 }
 
-.btn{
-    height: 200px;
-    width: 200px;
-    border: 10px solid black;
-    border-radius: 15%;
-    margin: 2rem;
+.btn {
+	height: 200px;
+	width: 200px;
+	border: 10px solid black;
+	border-radius: 15%;
+	margin: 2rem;
 }
 
-.red{
-    background-color: #FF8A8A;
+.red {
+	background-color: #ff8a8a;
 }
 
-.yellow{
-    background-color: #FFFF5C;
+.yellow {
+	background-color: #ffff5c;
 }
-.green{
-    background-color: #4FFFB0;
+.green {
+	background-color: #4fffb0;
 }
 
-.pruple{
-    background-color: #C576F6;
+.pruple {
+	background-color: #c576f6;
+}
+
+.flshbtn {
+	background-color: white;
 }
